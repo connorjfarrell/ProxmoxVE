@@ -1,0 +1,34 @@
+{
+    "name": "iSponsorBlockTV",
+    "slug": "iSponsorBlockTV",
+    "categories": [
+        5
+    ],
+    "date_created": "2025-01-23",
+    "type": "ct",
+    "updateable": true,
+    "privileged": false,
+    "interface_port": 8080,
+    "documentation": null,
+    "website": "https://github.com/dmunozv04/iSponsorBlockTV",
+    "logo": "https://raw.githubusercontent.com/dmunozv04/iSponsorBlockTV/main/.github/logo.png",
+    "description": "iSponsorBlockTV is a python-based utility to automatically control network streaming devices (Apple TV, ChromeCast, Roku, etc.) to skip ads utilizing the sponsorblock API",
+    "install_methods": [
+        {
+            "type": "default",
+            "script": "ct/isponsorblocktv.sh",
+            "resources": {
+                "cpu": 1,
+                "ram": 512,
+                "hdd": 4,
+                "os": "alpine",
+                "version": "3.20"
+            }
+        }
+    ],
+    "default_credentials": {
+        "username": null,
+        "password": null
+    },
+    "notes": []
+}
