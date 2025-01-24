@@ -45,7 +45,7 @@ cd /opt/iSponsorBlockTV
 
 # Install Python Requirements
 echo -e "${YW}Installing Python requirements...${CL}"
-pip3 install --no-cache-dir -r requirements.txt
+pip3 install --no-cache-dir --break-system-packages -r requirements.txt
 echo -e "${GN}Python dependencies installed.${CL}\n"
 
 # save release tag for update script
